@@ -22,8 +22,18 @@ and installing the package in develop mode:
 pip install -e .
 ```
 
+## Data
+Geostationary Lightning Mapper L2 data is available...
+We created gridded GLM data using the `glmtools` package available here: https://github.com/deeplycloudy/glmtools. We created full CONUS grids using the following commands:...
+
+The grids used for this work can be found here:...
+Those are available here:...
+
+
 # Reproducing results
 The results can be reproducing by running the Colab notebook. 
+
+We created timeseries of quantites from gridded GLM data (`src/generate_timeseries.py`) for tornado, hail, and null events. Those timeseries serve as the input into ROCKET (`src/...`).
 
 # License
 See `License`.
