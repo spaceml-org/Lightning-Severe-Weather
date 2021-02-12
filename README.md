@@ -1,3 +1,5 @@
+### Repository in active development.
+
 # Severe Weather Prediction with GLM and a Time Series Model
 by Iván Venzor-Cárdenas, Maria J. Molina, Marek Slipski, Nadia Ahmed, Mark Cheung, Clemens Tillier, Samantha Edgington, and Gregory Renard.
 
@@ -23,17 +25,17 @@ pip install -e .
 ```
 
 ## Data
-Geostationary Lightning Mapper L2 data is available...
-We created gridded GLM data using the `glmtools` package available here: https://github.com/deeplycloudy/glmtools. We created full CONUS grids using the following commands:...
+Geostationary Lightning Mapper L2 data is available... (forthcoming)
+We created gridded GLM data using the `glmtools` package available here: https://github.com/deeplycloudy/glmtools. We created full CONUS grids using the following commands:...(forthcoming)
 
-The grids used for this work can be found here:...
-Those are available here:...
+The grids used for this work can be found here:...(forthcoming)
+Those are available here:...(forthcoming
 
 
 # Reproducing results
-The results can be reproducing by running the Colab notebook. 
+The results can be reproducing by running the Colab notebook...(forthcoming)
 
-We created timeseries of quantites from gridded GLM data (`src/generate_timeseries.py`) for tornado, hail, and null events. Those timeseries serve as the input into ROCKET (`src/...`).
+We created timeseries of quantites from gridded GLM data (`src/generate_timeseries.py`) for tornado, hail, and null events. Those timeseries serve as the input into ROCKET.
 
 # License
 See `License`.
