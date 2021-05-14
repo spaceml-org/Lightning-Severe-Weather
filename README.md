@@ -15,7 +15,7 @@ Increases in flash rates detected in ground-based lightning data can be a precur
 Calculations and figures are run in Jupyter notebooks in `notebooks`.
 
 ## Getting the code
-git clone https://github.com/spaceml-org/Lightning-Severe-Weather.git
+`git clone https://github.com/spaceml-org/Lightning-Severe-Weather.git`
 
 ## Dependencies
 Dependencies are given in `setup.py`. We recommend setting up a virtual enivronment
